@@ -1,2 +1,2 @@
 # MKTLON
-The code will be released soon.
+The details information will be updated soon.
