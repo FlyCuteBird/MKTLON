@@ -137,7 +137,7 @@ def encode_data(model, data_loader, log_step=10, logging=print):
     return img_embs, cap_embs, cap_lens
 
 
-def evalrank(model_path, data_path=None, split='dev', fold5=False):
+def evalrank(model_path, data_path=None, split='dev', fold5=True):
 
     # load model and options
     checkpoint = torch.load(model_path)
