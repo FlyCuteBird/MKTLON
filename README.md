@@ -22,7 +22,7 @@ Text to image: 62.5  87.2  92.2
 ## Download Data 
 We utilize the image feature created by SCAN, downloaded [here](https://github.com/kuanghuei/SCAN). Some related text data can be found in the 'data' folder of the project (for Flickr30K).
 
-## Training 
+## Training (Some parameter settings can be found in our paper)
 ```bash
 python train.py 
 ```
