@@ -10,7 +10,7 @@ The following dependencies are recommended.
 * pytorch-pretrained-bert==0.6.2
   
 ## Pretrained model
-If you don't want to train from scratch, you can download the pre-trained MKTLON model  from [here]([https://drive.google.com/drive/folders/1eddbVAGbjHvofX96FuY4Sq7YcJTmuMhV?usp=drive_link](https://drive.google.com/drive/folders/1_ajDOu57KVDaGqSDia0jO-kcr4p1l1No?usp=sharing])(for Flickr30K)
+If you don't want to train from scratch, you can download the pre-trained MKTLON model  from[here](https://github.com/kuanghuei/SCAN) [here](https://drive.google.com/drive/folders/1eddbVAGbjHvofX96FuY4Sq7YcJTmuMhV?usp=drive_link](https://drive.google.com/drive/folders/1_ajDOu57KVDaGqSDia0jO-kcr4p1l1No?usp=sharing)(for Flickr30K)
 ```bash
 i2t: 503.0
 Image to text: 76.7  94.2  97.6
