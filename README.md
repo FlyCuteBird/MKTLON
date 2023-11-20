@@ -24,7 +24,6 @@ We utilize the image feature created by SCAN, downloaded [here](https://github.c
 
 ## Training 
 ```bash
-Some parameter settings can be found in our paper.
 python train.py 
 ```
 ## Testing
