@@ -179,6 +179,7 @@ class Reason_i2t(nn.Module):
 
     def i2t_scores(self, tnodes, vnodes, num_block):
         batch_size, num_regions = vnodes.size(0), vnodes.size(1)
+        # 9.0 for Flickr30K dataset; 10.0 for MSCOCO dataset
         sim_mvector = self.Encoding_sim(tnodes, vnodes, num_block, 9.0)
         sim_mvector = sim_mvector * self.delt
         # graph reasoning
